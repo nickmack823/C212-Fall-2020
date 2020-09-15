@@ -9,7 +9,7 @@ public class Lab3Scalable {
     int width = 750, height = 750; 
     a.setVisible(true); 
     a.setSize(width+20, height+40); 
-    RobinHoodMovable b = new RobinHoodMovable(width, height); 
+    RobinHoodScalable b = new RobinHoodScalable(width, height); 
     a.add(b);     
   }
 }

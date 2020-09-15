@@ -5,9 +5,9 @@ import java.awt.Graphics;
 import java.awt.Color;
 import java.awt.Polygon;
 
-public class RobinHoodMovable extends JComponent {
+public class RobinHoodScalable extends JComponent {
   int width, height; 
-  public RobinHoodMovable(int width, int height) {
+  public RobinHoodScalable(int width, int height) {
     this.width = width;
     this.height = height; 
   }
