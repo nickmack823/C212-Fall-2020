@@ -13,6 +13,7 @@ public class UnitTestClass {
 
         testCounter.reset();
         System.out.println("Counter value is: " + testCounter.getValue());
+        System.out.println("+---+\n| |\n+---+");
 
     }
 }
